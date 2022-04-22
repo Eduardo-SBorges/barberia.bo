@@ -1,0 +1,15 @@
+{
+  "git.enabled": true,
+  "files.exclude": {
+    ".vscode": false,
+    "public": true,
+    "package.json": true,
+    "yarn-lock.json": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    ".gitignore": true,
+    "README.md": true,
+    "node_modules": true,
+    "babel.config.js": true,
+  }
+}

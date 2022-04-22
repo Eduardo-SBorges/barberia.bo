@@ -11,5 +11,6 @@
     "README.md": true,
     "node_modules": true,
     "babel.config.js": true,
-  }
+  },
+  "editor.formatOnSave": true
 }

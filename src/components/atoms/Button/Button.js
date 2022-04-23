@@ -14,6 +14,8 @@ const renderSwitch = (template, placeholder) => {
       return <button className='btn-small btn-red'>{placeholder}</button>;
     case 'login-mobile':
       return <button className='btn-login-mobile'>{placeholder}</button>;
+    default:
+      return null;
   }
 };
 

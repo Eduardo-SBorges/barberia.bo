@@ -11,6 +11,8 @@ const renderSwitch = (template, text) => {
       return <p className='title-prices'>{text}</p>;
     case 'login':
       return <p className='title-login'>{text}</p>;
+    default:
+      return null;
   }
 };
 
